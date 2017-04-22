@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Search | Indeed</title>
+  <meta name="description" content="An interactive getting started guide for Brackets.">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<!-- TODO: Add more button for bottom nav -->
+<!-- TODO: make index page prettier -->
+<!-- TODO: make link to button class (remove duplication) text-decoration -->
+<body>
+  <nav class="nav-top clearfix">
+    <ul>
+      <li>
+        <a href="#" class="link link-selected">
+          Find Jobs
+        </a>
+      </li>
+      <li>
+        <a href="#" class="link">
+          Find Resumes
+        </a>
+      </li>
+      <li>
+        <a href="#" class="link">
+          Employers / Post Job
+        </a>
+      </li>
+    </ul>
+
+    <ul>
+      <li class="link-right">
+        <a href="#" class="link">
+          Sign In
+        </a>
+      </li>
+      <li class="link-right">
+        <a href="#" class="link link-emph">
+          Upload your resume
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <div id="overlay"></div>
+  <img class="ham-icon" src="ham.svg">
+  <section class="container">
+    <img class="logo" src="http://www.welltel.ie/wp-content/uploads/2014/02/indeed-logo.jpg" alt="Indeed Logo">
+
+    <form class="clearfix" method="post">
+      <div class="form-group">
+        <label for="what" class="label-search">what</label>
+        <input type="text" id="what" autofocus class="input-search" placeholder="Front end web developer">
+        <label for="what" class="input-search-subtext">job title, keywords or company name</label>
+      </div>
+
+      <div class="form-group">
+        <label for="where" class="label-search">where</label>
+        <input type="text" id="where" class="input-search" placeholder="San Francisco, California">
+        <label for="where" class="input-search-subtext">city, state or zip code</label>
+      </div>
+
+      <div class="center-element">
+        <input type="submit" value="Find Jobs" class="submit-search">
+        <a class="submit-search-subtext">Advanced job search</a>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer-links">
+    <ul>
+      <li class="link-showmore">
+        <a href="#" class="link-sub">Show more
+        </a>
+      </li>
+      <li class="footer-links_subitem">
+        <a href="#" class="link-sub">Upload your resume
+          <span class="link-sub_detail"> - Let employers find you.</span>
+        </a>
+      </li>
+      <li class="footer-links_subitem">
+        <a href="#" class="link-sub">Employers: Post a job
+          <span class="link-sub_detail"> - Your next hire is here.</span>
+        </a>
+      </li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Browse Companies</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Salaries</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Trends</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Browse Jobs</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Work at Indeed</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">API</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Countries</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">About</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Help Center</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Cookies</a></li>
+      <li class="footer-links_item"><a href="#" class="footer-links_link">Privacy and Terms</a></li>
+    </ul>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
