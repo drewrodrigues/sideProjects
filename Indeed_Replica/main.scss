@@ -1,4 +1,12 @@
 @import 'reset';
+
+// TODO: test on a tablet in different views
+// TODO: make link to button class (remove duplication) text-decoration
+// TODO: make index page prettier
+// TODO: animate hamburger icon to an x, and change color to white
+// TODO: fix view for different phones
+// TODO: fix margin-bottom for bottom links (when keyboard comes up on tablet)
+
 // *************************************************
 // BASE STYLES
 // *************************************************
@@ -253,7 +261,7 @@ footer a:hover {
 // *************************************************
 // Media Queries
 // *************************************************
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .form-group {
     float: none;
     width: 100%;
