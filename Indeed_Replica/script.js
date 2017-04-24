@@ -1,4 +1,3 @@
-// TODO: fix view for different phones
 // TODO: clean up code
 $(function() {
   $overlay = $('#overlay');

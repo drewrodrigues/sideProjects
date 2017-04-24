@@ -1,0 +1,26 @@
+/*
+- RESET: myers css reset
+- VARIABLES: color, padding, and margin variables
+- DRAWERS: navigation drawers
+- LINKS: link styling
+- LAYOUT: elements that are on every page
+- FORM: form elements
+- MEDIA: media queries
+*/
+
+@import 'reset';
+@import 'variables';
+@import 'positioning';
+@import 'drawers';
+@import 'links';
+@import 'layout';
+@import 'forms';
+@import 'media';
+
+// TODO: test on a tablet in different views
+// TODO: make link to button class (remove duplication) text-decoration
+// TODO: make index page prettier
+// TODO: animate hamburger icon to an x, and change color to white
+// TODO: fix view for different phones
+// TODO: fix margin-bottom for bottom links (when keyboard comes up on tablet)
+// TODO: adjust hamburger position

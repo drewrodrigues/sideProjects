@@ -1,0 +1,27 @@
+/************************************
+-- POSITIONING
+************************************/
+* {
+  box-sizing: border-box
+}
+
+.clearfix:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.pull-right {
+  float: right;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.center-element {
+  width: 100%;
+  text-align: center;
+}

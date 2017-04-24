@@ -1,0 +1,48 @@
+/************************************
+-- LAYOUT
+************************************/
+
+// -- Top Navigation
+.nav-top {
+  border-bottom: 1px solid $grey-lighter;
+}
+
+.ham-icon {
+  display: none;
+  height: 40px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 400px;
+}
+
+// -- Footer Navigation
+.footer-links {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-links_item {
+  display: inline-block;
+}
+
+.footer-links_link {
+  font-size: 12px;
+  display: block;
+  font-weight: 300;
+  color: $grey-light;
+  text-decoration: none;
+  padding: 10px 5px;
+  &:visited {
+    color: $grey-light;
+  }
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

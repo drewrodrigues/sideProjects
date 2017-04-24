@@ -1,0 +1,74 @@
+/************************************
+-- FORMS
+************************************/
+*:focus {
+  outline: none;
+}
+.form-group {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+}
+
+.label-search {
+  color: $orange;
+  margin-bottom: 10px;
+  font-weight: 700;
+  display: block;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.input-search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $grey-lighter;
+  &:hover {
+    border: 1px solid $grey-dark;
+  }
+  &:focus {
+    border: 1px solid $orange;
+  }
+}
+
+.input-search-subtext {
+  display: block;
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 300;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.submit-search {
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  font-size: 12px;
+  margin-top: 50px;
+  border: 0;
+  background: $blue-sky;
+  border: 1px solid $blue;
+  &:hover {
+    cursor: pointer;
+    background: $blue-light;
+  }
+}
+
+.submit-search-subtext {
+  color: $blue-sky;
+  font-size: 12px;
+  display: block;
+  font-weight: 300;
+  margin-top: 20px;
+  padding: 10px 0;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
