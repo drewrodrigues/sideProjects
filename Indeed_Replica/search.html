@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search | Indeed : Front End Web Developer</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="nav-top clearfix">
+        <ul>
+            <li><a href="#" class="link link-selected">Find Jobs</a></li>
+            <li><a href="#" class="link">Find Resumes</a></li>
+            <li><a href="#" class="link">Employers / Post Job</a></li>
+        </ul>
+
+        <ul>
+            <li class="link-right"><a href="#" class="link">Sign In</a></li>
+            <li class="link-right"><a href="#" class="link link-emph">Upload your resume</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="overlay"></div>
+    <img class="ham-icon" src="img/ham.svg">
+    <section class="container">
+        <a href="index.html">
+            <img class="logo" src="http://www.welltel.ie/wp-content/uploads/2014/02/indeed-logo.jpg" alt="Indeed Logo">
+        </a>
+
+        <form class="clearfix" method="get" action="search.html">
+            <div class="form-group">
+                <label for="what" class="label-search">what</label>
+                <input type="text" id="what" autofocus class="input-search" placeholder="Front end web developer">
+                <label for="what" class="input-search-subtext">job title, keywords or company name</label>
+            </div>
+
+            <div class="form-group">
+                <label for="where" class="label-search">where</label>
+                <input type="text" id="where" class="input-search" placeholder="San Francisco, California">
+                <label for="where" class="input-search-subtext">city, state or zip code</label>
+            </div>
+
+            <div class="center-element">
+                <input type="submit" value="Find Jobs" class="submit-search">
+                <a class="submit-search-subtext">Advanced job search</a>
+            </div>
+        </form>
+
+        <div class="job-filters">
+            <p>
+                Sort by:
+                <a href="#">relevance</a>
+                <a href="#">date</a>
+            </p>
+            <label class="job-filter_label">Distance</label>
+            <select class="job-filter">
+                <option>within 5 miles</option>
+                <option>within 10 miles</option>
+                <option>within 15 miles</option>
+                <option>within 25 miles</option>
+                <option>within 50 miles</option>
+                <option>within 100 miles</option>
+            </select>
+            <label class="job-filter_label">Salary</label>
+            <select class="job-filter">
+                <option>$90,000+ (269)</option>
+                <option>$100,000+ (79)</option>
+                <option>$105,000+ (32)</option>
+                <option>$115,000+ (52)</option>
+                <option>$125,000+ (12)</option>
+            </select>
+            <label class="job-filter_label">Job type</label>
+            <select class="job-filter">
+                <option>Full-time (269)</option>
+                <option>Contract (79)</option>
+                <option>Part-time (32)</option>
+                <option>Internship (52)</option>
+                <option>Temporary (12)</option>
+            </select>
+            <label class="job-filter_label">Location</label>
+            <select class="job-filter">
+                <option>San Francisco, CA (269)</option>
+                <option>Redwood City, CA (79)</option>
+                <option>San Mateo, CA (32)</option>
+                <option>San Bruno, CA (52)</option>
+                <option>GoPro (12)</option>
+                <option href="link-more">more</option>
+            </select>
+            <label class="job-filter_label">Company</label>
+            <select class="job-filter">
+                <option>Google (269)</option>
+                <option>Microsoft (79)</option>
+                <option>Oracle (32)</option>
+                <option>AutoDesk (52)</option>
+                <option>GoPro (12)</option>
+                <option href="link-more">more</option>
+            </select>
+            <label class="job-filter_label">Experience</label>
+            <select class="job-filter">
+                <option>Mid Level (269)</option>
+                <option>Mid Level (79)</option>
+                <option>Mid Level (32)</option>
+            </select>
+        </div>
+
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">Front End Web Developer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Verizon</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">Web Designer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Google</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">User Interface Designer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Google</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">Full Stack Web Developer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Google</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">Front End Web Developer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Verizon</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">Web Designer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Google</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">User Interface Designer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Google</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="job-listing">
+            <a href="#" class="job-listing_title">Full Stack Web Developer</a>
+            <p class="job-listing_header">
+                <a href="#" class="job-listing_company">Google</a>
+                <span class="job-listing_stars"></span>
+                <a href="#" class="job-listing_reviews">13,019 reviews</a>
+                <span class="job-listing_location">San Francisco, CA 94103</span>
+            </p>
+            <p class="job-listing_description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer-links">
+        <ul>
+            <li class="link-showmore"><a href="#" class="link-sub">Show More</a></li>
+            <li class="footer-links_subitem">
+                <a href="#" class="link-sub">Upload your resume
+                    <span class="link-sub_detail"> - Let employers find you.</span>
+                </a>
+            </li>
+            <li class="footer-links_subitem">
+                <a href="#" class="link-sub">Employers: Post a job
+                    <span class="link-sub_detail"> - Your next hire is here.</span>
+                </a>
+            </li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Browse Companies</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Salaries</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Trends</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Browse Jobs</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Work at Indeed</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">API</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Countries</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">About</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Help Center</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Cookies</a></li>
+            <li class="footer-links_item"><a href="#" class="footer-links_link">Privacy and Terms</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -16,6 +16,7 @@
 @import 'layout';
 @import 'forms';
 @import 'media';
+@import 'job-listings';
 
 // TODO: test on a tablet in different views
 // TODO: make link to button class (remove duplication) text-decoration
@@ -24,3 +25,5 @@
 // TODO: fix view for different phones
 // TODO: fix margin-bottom for bottom links (when keyboard comes up on tablet)
 // TODO: adjust hamburger position
+// BUG: change hamburger icon from fixed
+// TODO: adjust for bottom drawer, when viewport height is too small, you cant get out

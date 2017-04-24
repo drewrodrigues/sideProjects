@@ -1,0 +1,83 @@
+/************************************
+-- JOB LISTINGS
+************************************/
+.job-listing + .job-listing {
+    margin-top: 20px;
+}
+
+.job-listing_title,
+.job-listing_company,
+.job-listing_reviews {
+    text-decoration: none;
+    color: $blue-sky;
+    &:visited {
+        color: $blue-sky;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.job-listing_title {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.job-listing_header {
+    margin-bottom: 5px;
+}
+
+.job-listing_description {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #444;
+}
+
+.job-listing_location {
+    color: $grey-dark;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.job-listing_company,
+.job-listing_reviews {
+    font-weight: 300;
+}
+
+.job-listing_reviews {
+    font-size: 12px;
+}
+
+.job-listing_company {
+    font-size: 12px;
+    color: white;
+    background: $blue-sky;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px;
+    &:visited {
+        color: white;
+    }
+}
+
+.job-filters {
+    margin-bottom: 50px;
+}
+
+.job-filter {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: $blue-sky;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $blue-sky;
+    border-radius: 3px;
+    background: white;
+}
+
+.job-filter_label {
+    display: block;
+    margin: 10px 0 5px 0;
+}
